@@ -1,0 +1,101 @@
+id,title,venue,year,authors,doi\,predicted_Label,mmr_rank
+1185,The Ultimate Guide to Forgetting in Answer Set Programming.,kr,2016,"Thomas Eiter, Kewen Wang",https://www.semanticscholar.org/paper/312565eba294021ab26c28df41dc40631904ff60\,4.961328500837328,1
+1877,An Abstraction-Based Framework for Neural Network Verification.,cav,2020,,https://www.semanticscholar.org/paper/3407a2b19614e0f95597ed3cbc449590b57020fb\,4.779014440011229,2
+1305,Statistical Statements in Probabilistic Logic Programming.,lpnmr,2022,"Damiano Azzolini, Elena Bellodi, Fabrizio Riguzzi",https://www.semanticscholar.org/paper/07154ae36547d1ebc7277558b4e0c0b2ae83e112\,4.6920808706161194,3
+1343,xASP: An Explanation Generation System for Answer Set Programming.,lpnmr,2022,"Ly Ly Trieu, Tran Cao Son, Marcello Balduccini",https://www.semanticscholar.org/paper/58e504fab204e227e241d5c33a5f9baaa382e843\,4.688619013227338,4
+1626,The Vehicle Tutorial: Neural Network Verification with Vehicle.,cav,2023,"Matthew Daggitt, Wen Kokke, Ekaterina Komendantskaya, Robert Atkey, Luca Arnaboldi, Natalia Slusarz, Marco Casadio, Ben Coke, Jeonghyeon Lee",10.29007/5s2x\,4.58406457799946,5
+979,Explainable Planning Using Answer Set Programming.,kr,2020,"Van Nguyen, Stylianos Loukas Vasileiou, Tran Cao Son, William Yeoh",10.24963/kr.2020/66\,4.534872192576128,6
+1627,Supporting Standardization of Neural Networks Verification with VNNLIB and CoCoNet.,cav,2023,"Stefano Demarchi, Dario Guidotti, Luca Pulina, Armando Tacchella",10.29007/5pdh\,4.432629818710882,7
+1102,From Knowledge Graph Embedding to Ontology Embedding? An Analysis of the Compatibility between Vector Space Representations and Rules.,kr,2018,,https://www.semanticscholar.org/paper/60347869db7d1940958ee465b3010b3a612bf791\,4.201951285928407,8
+1407,moviola: Interpreting Dynamic Logic Programs via Multi-shot Answer Set Programming.,lpnmr,2017,"Orkunt Sabuncu, Jo\'e3o Leite",10.1007/978-3-319-61660-5_30\,4.222752083480546,9
+1006,Local vs. Global Interpretability of Machine Learning Models in Type 2 Diabetes Mellitus Screening.,kr,2019,"Leon Kopitar, Leona Cilar, Primoz Kocbek, Gregor Stiglic",10.1007/978-3-030-37446-4_9\,4.074047942435094,10
+1342,Towards Causality-Based Conflict Resolution in Answer Set Programs.,lpnmr,2022,"Andre Thevapalan, Konstantin Haupt, Gabriele Kern-Isberner",10.1007/978-3-031-15707-3_27\,4.2208098665537195,11
+1648,NNV 2.0: The Neural Network Verification Tool.,cav,2023,"Hoang-Dung Tran, Diego Manzanas Lopez, Xiaodong Yang, Patrick Musau, Luan Viet Nguyen, Weiming Xiang, Stanley Bak, Taylor T. Johnson",https://www.semanticscholar.org/paper/4edbaec77e146d86f1ca3947f8bac662e2c8cede\,4.2366627496119555,12
+1083,Knowledge-Based Transfer Learning Explanation.,kr,2018,,https://www.semanticscholar.org/paper/f890fa2b0f2b19fef1a0b08d5ea2831cec8213d7\,4.109654557588287,13
+1264,Generating Conflict-Free Treatments for Patients with Comorbidity Using Answer Set Programming.,kr,2016,"Elie Merhej, Steven Schockaert, T. Greg McKelvey, Martine De Cock",10.1007/978-3-319-55014-5_7\,4.030930410051805,14
+911,Answer Set Programming with Composed Predicate Names.,kr,2020,Mario Alviano,10.24963/kr.2020/5\,4.085344369959311,15
+1393,Backdoor Trees for Answer Set Programming.,lpnmr,2017,,https://www.semanticscholar.org/paper/3e5606525682b9be8f9741899dfe63f1ebff49d6\,4.062162115401673,16
+899,Augmenting Logic-based Knowledge Graphs: The Case of Company Graphs.,kr,2020,Aditya Malusare,https://www.semanticscholar.org/paper/d2aeb2d6bbd68d3755b2add58cba6c7aa2c924f1\,3.9776083835884,17
+1207,Negation Without Negation in Probabilistic Logic Programming.,kr,2016,,https://www.semanticscholar.org/paper/cd8ff464d7905f6dc849b2782f98750297d1dad9\,4.064528674405306,18
+1419,Answer Set Programming with Graded Modality.,lpnmr,2017,Zhizheng Zhang,10.1007/978-3-319-61660-5_18\,4.016914654268447,19
+1920,Verification of Deep Convolutional Neural Networks Using ImageStars.,cav,2020,"Hoang-Dung Tran, Stanley Bak, Weiming Xiang, Taylor T. Johnson",10.1007/978-3-030-53288-8_2\,4.003536282771543,20
+765,Faithful Approaches to Rule Learning.,kr,2022,"David J. Tena Cucala, Bernardo Cuenca Grau, Boris Motik",10.24963/kr.2022/50\,3.9320826160273064,21
+1122,Computing Logic Programs with Ordered Disjunction Using asprin.,kr,2018,"Gerhard Brewka, Ilkka Niemel\'e4, Tommi Syrj\'e4nen",10.1111/j.0824-7935.2004.00241.x\,3.9455453376979692,22
+1837,NNrepair: Constraint-Based Repair of Neural Network Classifiers.,cav,2021,"Muhammad Usman, Divya Gopinath, Youcheng Sun, Yannic Noller, Corina S. P\uc0\u259 s\u259 reanu",https://www.semanticscholar.org/paper/29404657e3ac5cc0e704feefaceecdc588f3182b\,3.965078308508584,23
+1700,Neural Network Robustness as a Verification Property: A Principled Case Study.,cav,2022,"Marco Casadio, Ekaterina Komendantskaya, Matthew L. Daggitt, Wen Kokke, Guy Katz, Guy Amir, Idan Refaeli",https://www.semanticscholar.org/paper/d216ee1c351486100aa5d93009075275c19715e6\,3.9878381812612007,24
+1717,Shared Certificates for Neural Network Verification.,cav,2022,"Marc Fischer, Christian Sprecher, Dimitar Iliev Dimitrov, Gagandeep Singh, Martin Vechev",https://www.semanticscholar.org/paper/fcbe32249625c0101fcb8388a1bfa396d8e7df03\,3.956959984209031,25
+767,ALASPO: An Adaptive Large-Neighbourhood ASP Optimiser.,kr,2022,"Thomas Eiter, Tobias Geibinger, Nelson Higuera, Nysret Musliu, Johannes Oetsch, Daria Stepanova",10.24963/kr.2022/58\,3.81258782409631,26
+947,A Data Complexity and Rewritability Tetrachotomy of Ontology-Mediated Queries with a Covering Axiom.,kr,2020,"Olga Gerasimova, Stanislav Kikot, Agi Kurucz, Vladimir Podolskii, Michael Zakharyaschev",10.24963/kr.2020/41\,3.784780112165378,27
+1678,QEBVerif: Quantization Error Bound Verification of Neural Networks.,cav,2023,"Yedi Zhang, Fu Song, Jun Sun",https://www.semanticscholar.org/paper/5a7d13e4b59e575c0806731c0c1e84d7a7489db8\,3.7365652916660346,28
+2486,A categorical account of composition methods in logic.,lics,2023,"Tom\'e1\'9a Jakl, Dan Marsden, Nihil Shah",10.1109/lics56636.2023.10175751\,3.71305683470244,29
+1405,Answer Set Programs with Queries over Subprograms.,lpnmr,2017,Christoph Redl,10.1007/978-3-319-61660-5_15\,3.755155590102739,30
+2959,Foundations of information integration under bag semantics.,lics,2017,"Andre Hernich, Phokion G. Kolaitis",10.1109/lics.2017.8005104\,3.6696775777322705,31
+796,Who&apos;s the Expert? On Multi-source Belief Change.,kr,2022,"Joseph Singleton, Richard Booth",https://ceur-ws.org/Vol-3799/abstract2GDE24.pdf\,3.640738893559935,32
+1330,State Transition in Multi-agent Epistemic Domains Using Answer Set Programming.,lpnmr,2022,"Yusuf Izmirlioglu, Loc Pham, Tran Cao Son, Enrico Pontelli",https://www.semanticscholar.org/paper/ece549f0a85b89eb24404c87dd5e9b8831eb6603\,3.688723577422235,33
+1143,Omission-Based Abstraction for Answer Set Programs.,kr,2018,"ZEYNEP G. SARIBATUR, THOMAS EITER",10.1017/s1471068420000095\,3.709174648696147,34
+1244,Commonsense Causal Reasoning between Short Texts.,kr,2016,,https://www.semanticscholar.org/paper/3446a23e07529bdf963dd5a66468ecc770543e6e\,3.623989671066779,35
+1649,Solving String Constraints Using SAT.,cav,2023,Kevin Lotz,https://www.semanticscholar.org/paper/71ce3f4869173bdc64d841363bdc01de746bc09a\,3.6082407432847594,36
+1302,Modal Logic S5 in Answer Set Programming with Lazy Creation of Worlds.,lpnmr,2022,"Mario Alviano, Sotiris Batsakis, George Baryannis",https://www.semanticscholar.org/paper/d190e2a651dfd634302ad1930bb45832a23d8338\,3.6578408983588746,37
+2059,Location Anomalies Detection for Connected and Autonomous Vehicles.,cav,2019,"Xiaoyang Wang, Ioannis Mavromatis, Andrea Tassi, Raul Santos-Rodriguez, Robert J. Piechocki",10.1109/cavs.2019.8887778\,3.5240921311586986,38
+991,A Semantic Perspective on Omission Abstraction in ASP.,kr,2020,"Zeynep G. Saribatur, Thomas Eiter",10.24963/kr.2020/75\,3.5917185653853494,39
+1087,Argumentation for Explainable Reasoning with Conflicting Medical Recommendations.,kr,2018,"Leila Amgoud, Souhila Kaci",https://www.semanticscholar.org/paper/020ecb9647893f4a6214430fa45a52aa0b7130cb\,3.52974332228807,40
+1082,A General Approach to Reasoning with Probabilities - Extended Abstract.,kr,2018,"Federico Cerutti, Matthias Thimm",https://www.semanticscholar.org/paper/543188e0b486b4d5c4a0638e061888a6b88a9310\,3.584733966902559,41
+951,Entity Type Recognition - Dealing with the Diversity of Knowledge.,kr,2020,"Fausto Giunchiglia, Mattia Fumagalli",https://www.semanticscholar.org/paper/736cc87bf60f90112975a9231fcda197e46be6a5\,3.4775807461856747,42
+989,Neuro-Symbolic Probabilistic Argumentation Machines.,kr,2020,"Regis Riveret, Son Tran, Artur d'Avila Garcez",10.24963/kr.2020/90\,3.5115694951702348,43
+751,Embed2Sym - Scalable Neuro-Symbolic Reasoning via Clustered Embeddings.,kr,2022,"Yaniv Aspis, Krysia Broda, Jorge Lobo, Alessandra Russo",10.24963/kr.2022/44\,3.4787775822233113,44
+2258,PSI: Exact Symbolic Inference for Probabilistic Programs.,cav,2016,"Timon Gehr, Sasa Misailovic, Martin Vechev",10.1007/978-3-319-41528-4_4\,3.5256291819163827,45
+723,Argumentative Reasoning in ASPIC+ under Incomplete Information.,kr,2023,"Daphne Odekerken, Tuomo Lehtonen, Johannes P. Wallner, Matti J\'e4rvisalo",10.1613/jair.1.18404\,3.508008993007412,46
+2931,Understanding the complexity of #SAT using knowledge compilation.,lics,2017,Florent Capelli,10.1109/lics.2017.8005121\,3.485862490916067,47
+1003,An Explainable Approach of Inferring Potential Medication Effects from Social Media Data.,kr,2019,"Keyuan Jiang, Tingyu Chen, Liyuan Huang, Ravish Gupta, Ricardo A. Calix, Gordon R. Bernard",10.1007/978-3-030-37446-4_7\,3.427977990124412,48
+930,Explanations for Negative Query Answers under Existential Rules.,kr,2020,"\uc0\u304 smail \u304 lkan Ceylan, Thomas Lukasiewicz, Enrico Malizia, Cristian Molinaro, Andrius Vaicenavi\u269 ius",10.24963/kr.2020/23\,3.4543435889372014,49
+2424,A Nominal Approach to Probabilistic Separation Logic.,lics,2024,"John M. Li, Jon Aytac, Philip Johnson-Freyd, Amal Ahmed, Steven Holtzen",10.1145/3661814.3662135\,3.4812123581912333,50
+1616,Efficient Sensitivity Analysis for Parametric Robust Markov Chains.,cav,2023,"Thom Badings, Sebastian Junges, Ahmadreza Marandi, Ufuk Topcu, Nils Jansen",https://www.semanticscholar.org/paper/da4e79fb9d68b02278b2640c53ec38193d9b80b2\,3.375900220898753,51
+1321,A Qualitative Temporal Extension of Here-and-There Logic.,lpnmr,2022,"Thomas Eiter, Patrik Schneider",https://www.semanticscholar.org/paper/6c70227838f9e320d380c8237b8590c91b00ca20\,3.4310072749320026,52
+1133,Query Answering for Rough EL Ontologies.,kr,2018,Patrick Koopmann,https://www.semanticscholar.org/paper/fb3ee54a0f4611c89c0f6b7861017ef7844ff26c\,3.43552305784765,53
+982,Towards a Logic of Meta-Analysis.,kr,2020,Rafael Pe\'f1aloza,10.24963/kr.2020/68\,3.379472751364863,54
+2206,Logical Clustering and Learning for Time-Series Data.,cav,2017,John C. Porcello,https://www.semanticscholar.org/paper/e40e4c101d89bfb17ff53b43952575ccf60e5a27\,3.315731368655745,55
+920,An Optimization Approach to Robust Goal Obfuscation.,kr,2020,"Sara Bernardini, Fabio Fagnani, Santiago Franco",10.24963/kr.2020/13\,3.3377557613623665,56
+1925,Systematic Generation of Diverse Benchmarks for DNN Verification.,cav,2020,"Dong Xu, David Shriver, Matthew B. Dwyer, Sebastian Elbaum",10.1007/978-3-030-53288-8_5\,3.3921212383471646,57
+1834,Theory Exploration Powered by Deductive Synthesis.,cav,2021,"Eytan Singher, Shachar Itzhaky",10.1007/978-3-030-81688-9_6\,3.3361147722072686,58
+910,Explainable Acceptance in Probabilistic Abstract Argumentation: Complexity and Approximation.,kr,2020,"Gianvincenzo Alfano, Marco Calautti, Sergio Greco, Francesco Parisi, Irina Trubitsyna",https://www.semanticscholar.org/paper/4f0196bff99a65c37dd6acc6732ec5a09268cf50\,3.36294846910969,59
+1011,Modelling ICU Patients to Improve Care Requirements and Outcome Prediction of Acute Respiratory Distress Syndrome: A Supervised Learning Approach.,kr,2019,"Mohammed Sayed, David Ria\'f1o",10.1007/978-3-030-37446-4_4\,3.2559941575779825,60
+3035,Unifying Logical and Statistical AI.,lics,2016,"Pedro Domingos, Daniel Lowd",https://www.semanticscholar.org/paper/99d15b4c9b95600675c11fb287e63850fd2cc133\,3.347455150106742,61
+1747,VPN: Verification of Poisoning in Neural Networks.,cav,2022,"Youcheng Sun, Muhammad Usman, Divya Gopinath, Corina S. P\uc0\u259 s\u259 reanu",https://www.semanticscholar.org/paper/63629ba868996f39389768a45ec0c1edd1fb4ab2\,3.35823367990893,62
+1835,Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability.,cav,2021,"Hoang-Dung Tran, Neelanjana Pal, Patrick Musau, Diego Manzanas Lopez, Nathaniel Hamilton, Xiaodong Yang, Stanley Bak, Taylor T. Johnson",10.1007/978-3-030-81685-8_12\,3.308042589322459,63
+1337,Pinpointing Axioms in Ontologies via ASP.,lpnmr,2022,"Rafael Pe\'f1aloza, Francesco Ricca",https://www.semanticscholar.org/paper/03db4890c9eb70f226ed07a76d4b545a2c02aa19\,3.3086469787656325,64
+1230,Bayesian Deduction with Subjective Opinions.,kr,2016,Huaping Lu-Adler,https://www.semanticscholar.org/paper/9b5e9eec9967f51c18a610760016a704ceb967b8\,3.297262608098933,65
+1108,A Logic for Specifying Metric Temporal Constraints for Golog Programs.,kr,2018,Ron Koymans,https://www.semanticscholar.org/paper/77e6d0966546ed7eb3a1e66af5068118a761efef\,3.2721672261840764,66
+749,Discovering User-Interpretable Capabilities of Black-Box Planning Agents.,kr,2022,"Pulkit Verma, Shashank Rao Marpally, Siddharth Srivastava",10.24963/kr.2022/36\,3.302066933180027,67
+998,Explainable and Argumentation-based Decision Making with Qualitative Preferences for Diagnostics and Prognostics of Alzheimer&apos;s Disease.,kr,2020,"Zhiwei Zeng, Zhiqi Shen, Benny Toh Hsiang Tan, Jing Jih Chin, Cyril Leung, Yu Wang, Ying Chi, Chunyan Miao",https://www.semanticscholar.org/paper/b10a2fe271e2799a600cfa4808bf4c07903b89e8\,3.3114407621692385,68
+2061,Cooperative Perception in Connected Vehicle Traffic under Field-of-View and Participation Variations.,cav,2019,"DoHyun Daniel Yoon, G. G. Md. Nawaz Ali, Beshah Ayalew",10.1109/cavs.2019.8887832\,3.220587807500584,69
+903,An Evolutionary Algorithm for Rule Learning over Knowledge Graphs.,kr,2020,"Hong Liu, Zhe Wang, Kewen Wang, Xiaowang Zhang, Zhiyong Feng",https://www.semanticscholar.org/paper/cc28f2744a8ab728ad6cb59d53ebdfce855b268b\,3.2768452819319878,70
+986,Modelling the Polysemy of Spatial Prepositions in Referring Expressions.,kr,2020,"Adam Richard-Bollans, Luc\'eda G\'f3mez \'c1lvarez, Anthony G. Cohn",10.24963/kr.2020/72\,3.1617101482569905,71
+874,Representing and Reasoning with Event Models for Epistemic Planning.,kr,2021,"David Rajaratnam, Michael Thielscher",10.24963/kr.2021/49\,3.2657226408886433,72
+2190,A Correct-by-Decision Solution for Simultaneous Place and Route.,cav,2017,Alexander Nadel,10.1007/978-3-319-63390-9_23\,3.155247081241191,73
+784,Ontology-Mediated Querying on Databases of Bounded Cliquewidth.,kr,2022,"Carsten Lutz, Leif Sabellek, Lukas Schulze",10.24963/kr.2022/25\,3.280916314918006,74
+718,Connecting Proof Theory and Knowledge Representation: Sequent Calculi and the Chase with Existential Rules.,kr,2023,"Tim S. Lyon, Piotr Ostropolski-Nalewaja",10.24963/kr.2023/79\,3.217883460886351,75
+1349,Evaluation of Disjunctive Programs in WASP.,lpnmr,2019,"Dietmar Seipel, Hans Argenton",https://www.semanticscholar.org/paper/f486b60191ef8c094b53a492bcd51797e3800c29\,3.266166417908537,76
+868,Strategic Reasoning in Automated Mechanism Design.,kr,2021,"Bastien Maubert, Munyque Mittelmann, Aniello Murano, Laurent Perrussel",10.24963/kr.2021/46\,3.2225449866689915,77
+1395,The Design of the Seventh Answer Set Programming Competition.,lpnmr,2017,"MARTIN GEBSER, MARCO MARATEA, FRANCESCO RICCA",https://www.semanticscholar.org/paper/b6f67ac7b05c7c3a8d2eb2fc8e62e8cb652f424b\,3.2621993032585443,78
+3079,Reasoning about Recursive Probabilistic Programs.,lics,2016,"Federico Olmedo, Benjamin Lucien Kaminski, Joost-Pieter Katoen, Christoph Matheja",10.1145/2933575.2935317\,3.2688908505862897,79
+1378,catnap: Generating Test Suites of Constrained Combinatorial Testing with Answer Set Programming.,lpnmr,2017,"Mutsunori Banbara, Katsumi Inoue, Hiromasa Kaneyuki, Tenda Okimoto, Torsten Schaub, Takehide Soh, Naoyuki Tamura",10.1007/978-3-319-61660-5_24\,3.190945574859328,80
+1486,Engineering an Efficient Probabilistic Exact Model Counter.,cav,2025,"Mate Soos, Kuldeep S. Meel",10.1007/978-3-031-98682-6_5\,3.187461788118487,81
+1140,The Window Validity Problem in Rule-Based Stream Reasoning.,kr,2018,"Alessandro Ronca, Mark Kaminski, Bernardo Cuenca Grau, Ian Horrocks",https://www.semanticscholar.org/paper/4ebc684ba953213c60f4bb88ece4958ae2445c13\,3.164149048518055,82
+1150,Propositional Belief Merging with OWA Operators.,kr,2018,"Creignou Nadia, Papini Odile, R&uuml;mmele Stefan, Woltran Stefan",https://www.semanticscholar.org/paper/10b763b31c054c5583e322c5d434e0ae077eff3d\,3.15819579785311,83
+959,Reasoning with Inconsistent Knowledge using the Epistemic Approach to Probabilistic Argumentation.,kr,2020,Anthony Hunter,10.24963/kr.2020/50\,3.1813503249203134,84
+756,"Querying Inconsistent Prioritized Data with ORBITS: Algorithms, Implementation, and Experiments.",kr,2022,"Meghyn Bienvenu, Camille Bourgaux",10.24963/kr.2022/54\,3.153064191351684,85
+2542,Reasoning on Data Words over Numeric Domains.,lics,2022,"Diego Figueira, Anthony Widjaja Lin",10.1145/3531130.3533354\,3.1426820382697134,86
+799,Learning Generalized Policies without Supervision Using GNNs.,kr,2022,"Simon St\'e5hlberg, Blai Bonet, Hector Geffner",10.24963/kr.2022/49\,3.1041758367875962,87
+1999,Stochastic Local Search for Solving Floating-Point Constraints.,cav,2019,"Shaobo He, Marek Baranowski, Zvonimir Rakamari\uc0\u263 ",10.1007/978-3-030-28423-7_5\,3.0946022802376896,88
+1007,Deep Learning for Haemodialysis Time Series Classification.,kr,2019,", Hassan Ismail Fawaz",https://www.semanticscholar.org/paper/a15aecaa943d9547cbe0a630cfa304bf251ae392\,3.065827055915757,89
+1265,A Public Health Surveillance Platform Exploiting Free-Text Sources via Natural Language Processing and Linked Data: Application in Adverse Drug Reaction Signal Detection Using PubMed and Twitter.,kr,2016,"Pantelis Natsiavas, Nicos Maglaveras, Vassilis Koutkias",10.1007/978-3-319-55014-5_4\,3.089210373684373,90
+2264,Souffl\'e9: On Synthesis of Program Analyzers.,cav,2016,"Herbert Jordan, Bernhard Scholz, Pavle Suboti\uc0\u263 ",10.1007/978-3-319-41540-6_23\,3.0910558719986576,91
+769,Public and Private Affairs in Strategic Reasoning.,kr,2022,"Nathana\'ebl Fijalkow, Bastien Maubert, Aniello Murano, Sasha Rubin, Moshe Vardi",10.24963/kr.2022/14\,3.105480596697522,92
+1456,Decision Heuristics in MCSat.,cav,2025,"Thomas Hader, Ahmed Irfan, St\'e9phane Graham-Lengrand",https://www.semanticscholar.org/paper/9c1414776dde16971cbe94946664a876362312ca\,3.090364637030394,93
+1254,Implicit Hitting Set Algorithms for Reasoning Beyond NP.,kr,2016,"Katalin Fazekas, Fahiem Bacchus, Armin Biere",https://www.semanticscholar.org/paper/e15e21702a1938a89cb4b394638f129d97e0059a\,3.1072597847782526,94
+2284,String Analysis via Automata Manipulation with Logic Circuit Representation.,cav,2016,"Hung-En Wang, Tzung-Lin Tsai, Chun-Han Lin, Fang Yu, Jie-Hong R. Jiang",10.1007/978-3-319-41528-4_13\,3.0413519599182663,95
+1110,Updating Belief in Arguments in Epistemic Graphs.,kr,2018,Matthias Steup,https://www.semanticscholar.org/paper/dde823250145eaa040eabba281fa4b396d6cdb30\,3.0598948321376596,96
+2987,An effectful way to eliminate addiction to dependence.,lics,2017,"Pierre-Marie Pedrot, Nicolas Tabareau",10.1109/lics.2017.8005113\,2.9459674717439044,97
+1710,Neural Networks in Imandra: Matrix Representation as a Verification Choice.,cav,2022,"Remi Desmartin, Grant Passmore, Ekaterina Kommendentskaya",https://www.semanticscholar.org/paper/75a5c36ad38eaabaa239807e6fe3beb3e35164e5\,3.0486514385061705,98
+2156,Learning a Static Analyzer from Data.,cav,2017,,https://www.semanticscholar.org/paper/18fc2aa116bf0d6a54eb658932146857ebe229cb\,3.015255786368679,99
+1778,Pre-deployment Security Assessment for Cloud Services Through Semantic Reasoning.,cav,2021,"Claudia Cauli, Meng Li, Nir Piterman, Oksana Tkachuk",10.1007/978-3-030-81685-8_36\,2.926342293153078,100
