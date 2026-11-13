@@ -271,8 +271,6 @@ def to_rank(p):
 def blend(p_ridge, p_lgbm, p_knn, w_ridge, w_lgbm, w_knn):
     return w_ridge * to_rank(p_ridge) + w_lgbm * to_rank(p_lgbm) + w_knn * to_rank(p_knn)
 
-
-# ================= FEATURE CỤM KMEANS CHO LIGHTGBM =================
 K_LIST = [50, 100, 200]
 ALPHA = 10
 folds = list(KFold(5, shuffle=True, random_state=42).split(X_full))
@@ -328,54 +326,65 @@ F_test = cluster_features(cluster_info, all_idx, n_train + np.arange(len(test_df
 clf_c = lgbm(np.hstack([X_full, F_fit]), y)
 test_c = expected_gain(clf_c, np.hstack([X_test_full, F_test]))
 
-mask_c = (train_df["venue"] != "iclp").values
-print("\n=== So sánh LightGBM có / không có feature cụm (300 tập con) ===")
-scores = {}
-for name, ol in [("LGBM cũ", oof), ("LGBM + cụm", oof_c)]:
-    b = 0.5 * to_rank(oof_ridge) + 0.5 * to_rank(ol)
-    auc_l = roc_auc_score(y[mask_c] > 1, ol[mask_c])
-    auc_b = roc_auc_score(y[mask_c] > 1, b[mask_c])
-    scores[name] = evaluate(b[mask_c], y[mask_c], keep_frac=0.65, n_sub=300)[2]
-    print(f"{name:<12} AUC lgbm={auc_l:.4f}  AUC blend={auc_b:.4f}  score(w0.5, keep0.65)={scores[name]:.4f}")
-
-gain = scores["LGBM + cụm"] - scores["LGBM cũ"]
-oof, test_lgbm = oof_c, test_c
-# ===================================================================
-
 mask = (train_df["venue"] != "iclp").values
-y_eval = y[mask]
 keep_grid = np.round(np.arange(0.50, 1, 0.05), 2)
+best = (None, None, -1, False, None)
+best_info = (None, None)
 
+print("\n=== EVALUATION ===")
+print("\n=== The ability of a single model to distinguish papers with a rating > 1 ===")
+scores = {}
+for name, ol in [("LGBM + metadata", oof), ("LGBM + meatdata + avg rating in 1 cluster", oof_c), ("ridge + metadata",oof_ridge), ("knn",oof_knn)]:
+    auc=roc_auc_score(y[mask]>1,ol[mask])
+    print(f"model {name} - AUC {auc:.4f}")
 
+print("\n=== correlation between predicted ratings and true ratings of a single model ===")
+for name, ol in [("LGBM + metadata", oof), ("LGBM + meatdata + avg rating in 1 cluster", oof_c), ("ridge + metadata",oof_ridge), ("knn",oof_knn)]:
+    spm=spearmanr(y[mask],ol[mask])[0]
+    print(f"model {name} - Spearman {spm:.4f}")
+
+print("\n=== Score of a single model ===")
+for name, ws in [("ridge", (1, 0, 0)), ("lgbm", (0, 1, 0)), ("knn", (0, 0, 1)), ("lgbm + cluster", (0,1,0))]:
+    is_with_cluster= True if name=="lgbm + cluster" else False
+    p_eval = blend(oof_ridge, oof, oof_knn, *ws)[mask] if name=="lgbm" else blend(oof_ridge, oof_c, oof_knn, *ws)[mask]
+    for f in keep_grid:
+        Q, R, S = evaluate(p_eval, y[mask], keep_frac=f)
+        if S > best[2]:
+            auc=roc_auc_score(y[mask]>1,p_eval)
+            spm=spearmanr(y[mask],p_eval)[0]
+            best=(ws,f,S, is_with_cluster, (auc,spm))
+            best_info = (Q, R)
 weight_list = []
-
 for w_ridge in np.linspace(0, 1, 11):
     for w_lgbm in np.linspace(0, 1, 11):
         w_knn = 1 - w_ridge - w_lgbm
         if w_knn >= -1e-9:
             weight_list.append((round(w_ridge, 1), round(w_lgbm, 1), round(max(w_knn, 0), 1)))
+lgbm_versions = [("Ensemble with lgbm ", oof), ("Ensemble with LGBM + cluster", oof_c)]
+for name, oof_l in lgbm_versions:
+    is_with_cluster= False if name=="Ensemble with lgbm " else True
+    for w_ridge, w_lgbm, w_knn in weight_list:
+        p_eval = blend(oof_ridge, oof_l, oof_knn, w_ridge, w_lgbm, w_knn)[mask]
+        for f in keep_grid:
+            Q, R, S = evaluate(p_eval, y[mask], keep_frac=f)
+            auc=roc_auc_score(y[mask]>1,p_eval)
+            spm=spearmanr(y[mask],p_eval)[0]
+            if S > best[2]:
+                best = ((w_ridge, w_lgbm, w_knn), f, S,is_with_cluster, (auc,spm))
+                best_info = (Q, R)
+          
 
 
-best = (None, None, -1)
-best_info = (None, None)
-for w_ridge, w_lgbm, w_knn in weight_list:
-    p_eval = blend(oof_ridge, oof, oof_knn, w_ridge, w_lgbm, w_knn)[mask]
-    for f in keep_grid:
-        Q, R, S = evaluate(p_eval, y_eval, keep_frac=f)
-        if S > best[2]:
-            best = ((w_ridge, w_lgbm, w_knn), f, S)
-            best_info = (Q, R)
+        
 
-for name, ws in [("chỉ ridge", (1, 0, 0)), ("chỉ lgbm", (0, 1, 0)), ("chỉ knn", (0, 0, 1)), ("ridge+lgbm 0.5/0.5", (0.5, 0.5, 0))]:
-    p_eval = blend(oof_ridge, oof, oof_knn, *ws)[mask]
-    s = max(evaluate(p_eval, y_eval, keep_frac=f)[2] for f in keep_grid)
-    print(f"{name:<22} score={s:.4f}")
 
-(best_wr, best_wl, best_wk), best_keep, best_score = best
+
+(best_wr, best_wl, best_wk), best_keep, best_score,is_with_cluster,(auc,spm) = best
 Q, R = best_info
-print(f"\nTốt nhất: w_ridge={best_wr}, w_lgbm={best_wl}, w_knn={best_wk}, keep={best_keep}, "
+print(f"\n Best version: w_ridge={best_wr}, w_lgbm={best_wl}, w_knn={best_wk}, keep={best_keep}, cluster={is_with_cluster}, AUC={auc:.4f}, Spearman={spm:.4f} "
       f"score={best_score:.4f}, Q={Q:.4f}, R={R:.4f}")
-
+if is_with_cluster:
+    test_lgbm=test_c
 test_pred = blend(test_ridge, test_lgbm, test_knn, best_wr, best_wl, best_wk)
 priority = make_priority(test_pred, best_keep)
 
